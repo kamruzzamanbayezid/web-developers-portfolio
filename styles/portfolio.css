@@ -1,0 +1,99 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: "Open Sans", sans-serif;
+}
+
+/* shared/common styles */
+.primary-btn{ 
+      background-color: #FD6E0A;
+      color: white;
+      font-weight: 700;
+      border: none;
+      padding: 15px 25px;
+}
+
+
+/* Header related styles */
+
+/* Navbar */
+header{ 
+      background-color: #FFF8F3;
+      background-image: url('/images/header_bg.png'),url('/images/developer.png');
+      background-repeat: no-repeat;
+      background-position: right bottom, left;
+      padding: 50px 0 0 0;
+      margin-bottom: 150px;
+}
+
+/* Mary style */
+header nav h4{ 
+      font-size: 45px;
+      font-weight: 800;
+}
+
+header nav h4 span{ 
+      color: #FD6E0A;
+}
+
+/* nav list items */
+header nav{ 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 150px;
+}
+
+header nav ul { 
+      display: flex;
+      align-items: center;
+      gap: 24px;
+}
+
+header nav ul li{
+      list-style: none;
+}
+
+header nav ul li:hover{ 
+      background-color: aliceblue;
+}
+header nav ul li a{
+      text-decoration: none;
+      font-size: 20px;
+      padding: 10px 20px;
+      display: block;
+      color: #474747;
+}
+
+/* Banner styles */
+.banner-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.banner-container img{ 
+      width: 550px;
+}
+.banner-tittle1{ 
+      font-size: 45px;
+      font-weight: 600;
+      color: #474747;
+}
+.banner-tittle2{
+      color: #181818;
+      font-size: 80px;
+      font-weight: 700;
+}
+.banner-description{
+      color: #757575;
+      font-size: 18px;
+}
+.banner-content{
+      padding-left: 150px;
+}
+.banner-buttons{ 
+      margin-top: 20px;
+}
