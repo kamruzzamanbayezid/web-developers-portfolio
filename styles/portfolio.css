@@ -176,3 +176,55 @@ header nav ul li a {
 .course-description {
       color: #757575;
 }
+
+/* Summery of my resume section */
+.my-resume-section{
+      max-width: 1140px;
+      margin: 0 auto 150px;
+      align-items: center;
+}
+#resume-title{
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.my-education-title{
+      font-size: 30px;
+      font-weight: 700;
+      color: #474747;
+      margin-bottom: 20px;
+}
+
+.resume-content{ 
+      display: flex;
+      gap: 24px;
+}
+
+.education-container{ 
+      margin-bottom: 20px;
+      border-bottom: 1px solid #d1d1d1;
+      padding-bottom: 15px;
+}
+
+.education-title{ 
+      color: #474747;
+      font-weight: 700;
+      font-size: 25px;
+      margin-bottom: 10px;
+}
+
+.education-institute{ 
+      color: #757575;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 7px;
+}
+
+.education-description{ 
+      color: #757575;
+}
+
+.resume-btn{ 
+      display: flex;
+      justify-content: center;
+}
