@@ -178,53 +178,103 @@ header nav ul li a {
 }
 
 /* Summery of my resume section */
-.my-resume-section{
+.my-resume-section {
       max-width: 1140px;
       margin: 0 auto 150px;
       align-items: center;
 }
-#resume-title{
+
+#resume-title {
       text-align: center;
       margin-bottom: 50px;
 }
 
-.my-education-title{
+.my-education-title {
       font-size: 30px;
       font-weight: 700;
       color: #474747;
       margin-bottom: 20px;
 }
 
-.resume-content{ 
+.resume-content {
       display: flex;
       gap: 24px;
 }
 
-.education-container{ 
+.education-container {
       margin-bottom: 20px;
       border-bottom: 1px solid #d1d1d1;
       padding-bottom: 15px;
 }
 
-.education-title{ 
+.education-title {
       color: #474747;
       font-weight: 700;
       font-size: 25px;
       margin-bottom: 10px;
 }
 
-.education-institute{ 
+.education-institute {
       color: #757575;
       font-size: 20px;
       font-weight: 600;
       margin-bottom: 7px;
 }
 
-.education-description{ 
+.education-description {
       color: #757575;
 }
 
-.resume-btn{ 
+.resume-btn {
       display: flex;
       justify-content: center;
+}
+
+/* Footer section */
+.footer-container {
+      padding: 100px 0;
+}
+
+.portfolio-footer {
+      max-width: 1140px;
+      margin: 0 auto 150px;
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+}
+
+.footer-content {
+      width: 50%;
+}
+
+.footer-content-description {
+      color: #474747;
+}
+
+.footer-icons {
+      margin-top: 20px;
+}
+
+.footer-icons img {
+      margin-right: 10px;
+}
+
+.footer-form {
+      width: 50%;
+}
+
+.footer-form input[type="text"],
+input[type="email"],
+textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 20px 0 20px 15px;
+      border: none;
+
+}
+
+.footer-form textarea::placeholder,
+input::placeholder {
+      color: #757575;
 }
