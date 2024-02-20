@@ -123,7 +123,9 @@ header nav ul li a {
 /* About me section */
 .about-me-section {
       background-color: #FFF8F3;
-      max-width: 1140px;
+      border-radius: 10px;
+      /* max-width: 1140px; */
+      max-width: 800px;
       margin: 0 auto 150px;
       padding: 150px 200px;
       text-align: center;
@@ -135,17 +137,42 @@ header nav ul li a {
       justify-content: space-between;
 }
 
-.about-info-title{
+.about-info-title {
       color: #757575;
 }
-.about-info-description{
+
+.about-info-description {
       color: #474747;
       font-weight: 600;
 }
 
 /* what i do section */
-.what-i-do-section{
+.what-i-do-section {
       max-width: 1140px;
       margin: 0 auto 150px;
       text-align: center;
+}
+
+.what-i-do-course-container {
+      display: flex;
+      margin-top: 40px;
+      gap: 24px;
+      text-align: start;
+}
+
+.what-i-do-course {
+      background-color: #FFFFFF;
+      padding: 24px;
+      box-shadow: 3px 3px 5px #757575, -3px -3px 5px #757575;
+      border-radius: 10px;
+}
+
+.course-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 20px 0;
+}
+
+.course-description {
+      color: #757575;
 }
