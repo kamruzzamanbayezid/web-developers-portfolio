@@ -1,4 +1,4 @@
-*{
+* {
       margin: 0;
       padding: 0;
 }
@@ -8,7 +8,7 @@ body {
 }
 
 /* shared/common styles */
-.primary-btn{ 
+.primary-btn {
       background-color: #FD6E0A;
       color: white;
       font-weight: 700;
@@ -16,13 +16,24 @@ body {
       padding: 15px 25px;
 }
 
+.section-title {
+      color: #181818;
+      font-size: 35px;
+      font-weight: 700;
+      margin-bottom: 20px;
+}
+
+.section-description {
+      color: #757575;
+      margin-bottom: 15px;
+}
 
 /* Header related styles */
 
 /* Navbar */
-header{ 
+header {
       background-color: #FFF8F3;
-      background-image: url('/images/header_bg.png'),url('/images/developer.png');
+      background-image: url('/images/header_bg.png'), url('/images/developer.png');
       background-repeat: no-repeat;
       background-position: right bottom, left;
       padding: 50px 0 0 0;
@@ -30,37 +41,38 @@ header{
 }
 
 /* Mary style */
-header nav h4{ 
+header nav h4 {
       font-size: 45px;
       font-weight: 800;
 }
 
-header nav h4 span{ 
+header nav h4 span {
       color: #FD6E0A;
 }
 
 /* nav list items */
-header nav{ 
+header nav {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 0 150px;
 }
 
-header nav ul { 
+header nav ul {
       display: flex;
       align-items: center;
       gap: 24px;
 }
 
-header nav ul li{
+header nav ul li {
       list-style: none;
 }
 
-header nav ul li:hover{ 
+header nav ul li:hover {
       background-color: aliceblue;
 }
-header nav ul li a{
+
+header nav ul li a {
       text-decoration: none;
       font-size: 20px;
       padding: 10px 20px;
@@ -69,31 +81,71 @@ header nav ul li a{
 }
 
 /* Banner styles */
-.banner-container{
+.banner-container {
       display: flex;
       align-items: center;
       justify-content: space-between;
 }
-.banner-container img{ 
+
+.banner-container img {
       width: 550px;
 }
-.banner-tittle1{ 
+
+.banner-tittle1 {
       font-size: 45px;
       font-weight: 600;
       color: #474747;
 }
-.banner-tittle2{
+
+.banner-tittle2 {
       color: #181818;
       font-size: 80px;
       font-weight: 700;
 }
-.banner-description{
+
+.banner-description {
       color: #757575;
       font-size: 18px;
 }
-.banner-content{
+
+.banner-content {
       padding-left: 150px;
 }
-.banner-buttons{ 
+
+.banner-buttons {
       margin-top: 20px;
+}
+
+/* Header Styles end */
+
+/* Main Styles */
+
+/* About me section */
+.about-me-section {
+      background-color: #FFF8F3;
+      max-width: 1140px;
+      margin: 0 auto 150px;
+      padding: 150px 200px;
+      text-align: center;
+}
+
+.about-info {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.about-info-title{
+      color: #757575;
+}
+.about-info-description{
+      color: #474747;
+      font-weight: 600;
+}
+
+/* what i do section */
+.what-i-do-section{
+      max-width: 1140px;
+      margin: 0 auto 150px;
+      text-align: center;
 }
