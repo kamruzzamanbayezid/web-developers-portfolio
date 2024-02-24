@@ -33,7 +33,8 @@ body {
 /* Navbar */
 header {
       background-color: #FFF8F3;
-      background-image: url('/images/header_bg.png'), url('./images/developer.png');
+
+      background-image: url('./images/header_bg.png'), url('./images/developer.png');
       background-repeat: no-repeat;
       background-position: right bottom, left;
       padding: 50px 0 0 0;
@@ -129,6 +130,7 @@ header nav ul li a {
       margin: 0 auto 150px;
       padding: 150px 200px;
       text-align: center;
+      border: 2px solid red;
 }
 
 .about-info {
@@ -152,6 +154,8 @@ header nav ul li a {
       margin: 0 auto 150px;
       text-align: center;
       padding: 20px;
+      border: 2px solid red;
+
 }
 
 .what-i-do-course-container {
