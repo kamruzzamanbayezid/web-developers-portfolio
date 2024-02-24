@@ -33,7 +33,7 @@ body {
 /* Navbar */
 header {
       background-color: #FFF8F3;
-      background-image: url('/images/header_bg.png'), url('/images/developer.png');
+      background-image: url('/images/header_bg.png'), url('./images/developer.png');
       background-repeat: no-repeat;
       background-position: right bottom, left;
       padding: 50px 0 0 0;
@@ -151,6 +151,7 @@ header nav ul li a {
       max-width: 1140px;
       margin: 0 auto 150px;
       text-align: center;
+      padding: 20px;
 }
 
 .what-i-do-course-container {
@@ -182,6 +183,7 @@ header nav ul li a {
       max-width: 1140px;
       margin: 0 auto 150px;
       align-items: center;
+      padding: 20px;
 }
 
 #resume-title {
@@ -232,7 +234,7 @@ header nav ul li a {
 
 /* Footer section */
 .footer-container {
-      padding: 100px 0;
+      padding: 100px 20px;
 }
 
 .portfolio-footer {
@@ -244,6 +246,10 @@ header nav ul li a {
 }
 
 .footer-content {
+      width: 50%;
+}
+
+.footer-form {
       width: 50%;
 }
 
@@ -259,9 +265,6 @@ header nav ul li a {
       margin-right: 10px;
 }
 
-.footer-form {
-      width: 50%;
-}
 
 .footer-form input[type="text"],
 input[type="email"],
@@ -277,4 +280,186 @@ textarea {
 .footer-form textarea::placeholder,
 input::placeholder {
       color: #757575;
+}
+
+.hide {
+      display: none;
+}
+
+/* Responsive media query */
+
+/* mobile or small device */
+@media screen and (max-width: 576px) {
+
+      /* header section */
+      header nav {
+            flex-direction: column;
+            padding: 0;
+      }
+
+
+      /* banner section */
+      .banner-container {
+            flex-direction: column-reverse;
+      }
+
+      .banner-container img {
+            width: 100%;
+      }
+
+      .banner-tittle2 {
+            font-size: 30px;
+      }
+
+      .banner-description {
+            margin-top: 10px;
+            font-size: 14px;
+      }
+
+      .banner-content {
+            padding: 20px;
+      }
+
+      /* about me section */
+      .about-me-section {
+            padding: 20px;
+            margin-bottom: 20px;
+      }
+
+      .about-info {
+            flex-direction: column;
+      }
+
+      .about-info div {
+            margin-bottom: 20px;
+      }
+
+      /* what i do section */
+      .what-i-do-course-container {
+            flex-direction: column;
+      }
+
+      .what-i-do-section {
+            margin-bottom: 20px;
+      }
+
+      /* my resume section */
+      .my-resume-section {
+            margin-bottom: 20px;
+      }
+
+      .resume-content {
+            flex-direction: column;
+            text-align: center;
+      }
+
+      /* footer section */
+      .footer-container {
+            padding: 30px 20px;
+      }
+
+      .portfolio-footer {
+            margin-bottom: 20px;
+            flex-direction: column;
+      }
+
+      .footer-content {
+            width: 100%;
+      }
+
+      .footer-form {
+            width: 100%;
+      }
+
+}
+
+/* tablet or medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+      /* header section */
+      header nav {
+            flex-direction: column;
+            padding: 0;
+      }
+
+
+      /* banner section */
+      .banner-container {
+            flex-direction: column-reverse;
+      }
+
+      .banner-container img {
+            width: 100%;
+      }
+
+      .banner-tittle2 {
+            font-size: 40px;
+      }
+
+      .banner-description {
+            margin-top: 10px;
+            font-size: 16px;
+      }
+
+      .banner-content {
+            padding: 20px;
+      }
+
+      /* about me section */
+      .about-me-section {
+            padding: 20px;
+            margin-bottom: 20px;
+      }
+
+      .about-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+      }
+
+      .about-info div {
+            margin-bottom: 20px;
+      }
+
+      /* what i do section */
+      .what-i-do-course-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+      }
+
+      .what-i-do-section {
+            margin-bottom: 20px;
+      }
+
+
+      /* my resume section */
+      .my-resume-section {
+            margin-bottom: 20px;
+      }
+
+      .resume-content {
+            flex-direction: column;
+            text-align: center;
+      }
+
+      /* footer section */
+      .footer-container {
+            padding: 30px 20px;
+      }
+
+      .portfolio-footer {
+            margin-bottom: 20px;
+            flex-direction: column;
+      }
+
+      .footer-content {
+            width: 100%;
+      }
+
+      .footer-form {
+            width: 100%;
+
+      }
+
+
 }
